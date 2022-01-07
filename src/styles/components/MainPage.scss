@@ -87,6 +87,20 @@ div.carousel.slide {
   }
 }
 
+@media (min-width: 1440px) {
+  .main-page__img {
+    height: auto;
+    max-width: 80%;
+  }
+}
+
+@media(min-width: 1900px){
+  .main-page__img {
+    height: auto;
+    max-width: 60%;
+  }
+}
+
 @media (min-width: 2560px) {
   .main-page__title {
     font-size: 4em;
