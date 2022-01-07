@@ -65,7 +65,7 @@ export const DestinosPage = () => {
 
                 <div className="destinos-page__btn">
                     <Link to='/asesoria'>
-                        <Button text={"¡Quiero presupuestar mi viaje!"} width={'50%'} />
+                        <Button text={"¡Quiero presupuestar mi viaje!"} width={'80%'} />
                     </Link>
                 </div>
             </div>
