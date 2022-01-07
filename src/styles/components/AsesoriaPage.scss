@@ -1,0 +1,53 @@
+.asesoria-page__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asesoria-page__title {
+  text-align: center;
+  color: $greenColor;
+  font-weight: 600;
+  margin-top: 1em;
+  text-shadow: -1px 3px 4px rgba(97, 97, 97, 0.7);
+}
+
+.asesoria-page__subtitle {
+  color: $whiteColor;
+  margin: 1em;
+}
+
+.asesoria-page__p {
+  color: $whiteColor;
+  font-weight: 300;
+  margin-bottom: 2em !important;
+  background: $alphaPinkBtnColor;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 0 2em;
+  z-index: 99;
+  line-height: 1.5em;
+}
+
+@media (min-width: 1024px){
+  .asesoria-page__p{
+    margin: 0 10em;
+  }
+}
+
+@media(min-width: 2560px){
+  .asesoria-page__title {
+    font-size: 2.5em;
+    margin-bottom: 2em;
+  }
+  .asesoria-page__subtitle {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+  }
+  .asesoria-page__p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 2em;
+  }
+}

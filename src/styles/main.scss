@@ -1,0 +1,19 @@
+// All the imports => @import "./components/component-name";
+
+@import "./base/base";
+@import "./base/settings";
+
+// Components
+@import "./components/NavBar.scss";
+@import "./components/NavBarDesktop.scss";
+@import "./components/Button.scss";
+@import "./components/ContactForm.scss";
+
+@import "./components/MainPage.scss";
+@import "./components/DestinosPage.scss";
+@import "./components/AboutPage.scss";
+@import "./components/AsesoriaPage.scss";
+
+
+//Bootstrap
+@import "~bootstrap/scss/bootstrap";

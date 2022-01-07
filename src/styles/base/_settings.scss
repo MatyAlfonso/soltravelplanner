@@ -1,0 +1,35 @@
+// The settings of the page globally.
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#root {
+  background-color: $pinkBgColor;
+}
+
+// SWAL CUSTOM CSS
+
+h2#swal2-title.swal2-title,
+div#swal2-html-container.swal2-html-container,
+div.swal2-actions,
+div.swal2-success-ring,
+div.swal2-timer-progress-bar-container,
+span.swal2-x-mark,
+div.swal2-icon.swal2-error.swal2-icon-show {
+  background: none;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: $pinkBtnColor;
+}

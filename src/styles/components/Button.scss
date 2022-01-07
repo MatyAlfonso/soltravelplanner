@@ -1,0 +1,21 @@
+.button__btn{
+    background-color: $pinkBtnColor;
+    border-radius: 10px;
+    border: none;
+    color: $whiteColor;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding:  0.2em 1.5em;
+    margin: auto;
+
+    &:hover{
+        background-color: darken($color: $pinkBtnColor, $amount: 10);
+    }
+}
+
+@media (min-width: 2560px) {
+    .button__btn{
+        padding: 1em 2em;
+        font-size: 2em;
+    }
+}
